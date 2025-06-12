@@ -18,7 +18,6 @@ public class Main {
     public static void main(String[] args){
 
         Product p = new Product();
-
         System.out.println(p.product(2,3));
         System.out.println(p.product(1,4,3));
         System.out.println(p.product(1.43, 14.3));
